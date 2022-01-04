@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Photo Effects</h2>
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="10" max="200" data-sizing="px">
+
+        <label for="spacing">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" data-sizing="px">
+
+        <label for="base">Color:</label>
+        <input type="color" name="base" value="#ffc600">
+    </div>
+
+    <img src="poster.jpg">
+</body>
+</html>
